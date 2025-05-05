@@ -1133,13 +1133,25 @@ input:focus, select:focus, textarea:focus {
     }
     
     .presence-content {
+        display: flex;
         flex-direction: column;
         gap: 3rem;
     }
     
     .india-map, .presence-stats {
         flex: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+    }
+
+    .presence-stats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     
     .footer-content {
